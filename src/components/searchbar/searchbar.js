@@ -9,6 +9,7 @@ class Search extends React.Component {
     this.setState({
       searchValue: target.value,
     });
+    console.log("d");
   };
   handleSubmit = (event) => {
     event.preventDefault();
@@ -24,7 +25,10 @@ class Search extends React.Component {
         />
         <i class="fas fa-search-location"></i>
         <button class="search-btn" type="submit">
-          <img src="../../../iconfinder_Rounded-10_2024633.png"></img>
+          <img
+            src="../../../iconfinder_Rounded-10_2024633.png"
+            alt="search"
+          ></img>
         </button>
         <span class="glyphicon glyphicon-search"></span>
         <br clear="all"></br>
